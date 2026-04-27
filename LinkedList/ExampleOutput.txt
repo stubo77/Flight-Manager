@@ -1,0 +1,297 @@
+Choice		Action
+------		------
+A		Add a Flight
+C		Cancel One Flight
+D		Display All Flights
+E		Display Flights by Airline
+F		Display Flights by Date
+O		Cancel Flights by Airline
+R		Cancel Flights by Date
+S		Search one Flight
+U		Delay a Flight
+V		Change a Flight Airline
+Q		Quit
+?		Display Help
+
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: AA 994 on 09/03/2025 is added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: DL 2348 on 09/19/2025 is added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: UA 717 on 08/25/2025 is added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: NW 1205 on 10/23/2025 is added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: DL 1905 on 08/25/2025 is added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: UA 2602 on 09/09/2025 is added
+
+What action would you like to perform?
+AA   994       09/03/2025  
+DL   1905      08/25/2025  
+DL   2348      09/19/2025  
+NW   1205      10/23/2025  
+UA   717       08/25/2025  
+UA   2602      09/09/2025  
+
+Total # of flights: 6
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: AA 338 on 08/25/2025 is added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: SW 158 on 08/27/2025 is added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: AA 1905 on 09/03/2025 is added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: SW 2209 on 08/18/2025 is added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: AA 1905 on 08/29/2025 is added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: SW 2209 on 08/18/2025 is NOT added
+
+What action would you like to perform?
+
+Enter the flight information: 
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Flight: DL 2348 on 09/12/2025 is added
+
+What action would you like to perform?
+AA   338       08/25/2025  
+AA   994       09/03/2025  
+AA   1905      08/29/2025  
+AA   1905      09/03/2025  
+DL   1905      08/25/2025  
+DL   2348      09/12/2025  
+DL   2348      09/19/2025  
+NW   1205      10/23/2025  
+SW   158       08/27/2025  
+SW   2209      08/18/2025  
+UA   717       08/25/2025  
+UA   2602      09/09/2025  
+
+Total # of flights: 12
+
+What action would you like to perform?
+
+Enter airline code: 
+Enter flight num: 
+Enter old departure date: 
+Enter new departure date: 
+Flight: AA 1905 on 08/29/2025 departure date is changed to 09/05/2025
+
+What action would you like to perform?
+
+Enter airline code: 
+Enter flight num: 
+Enter old departure date: 
+Enter new departure date: 
+Flight: DL 2348 on 09/12/2025 departure date is changed to 09/13/2025
+
+What action would you like to perform?
+AA   338       08/25/2025  
+AA   994       09/03/2025  
+AA   1905      09/03/2025  
+AA   1905      09/05/2025  
+DL   1905      08/25/2025  
+DL   2348      09/13/2025  
+DL   2348      09/19/2025  
+NW   1205      10/23/2025  
+SW   158       08/27/2025  
+SW   2209      08/18/2025  
+UA   717       08/25/2025  
+UA   2602      09/09/2025  
+
+Total # of flights: 12
+
+What action would you like to perform?
+
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Enter new airline code: 
+Flight: DL 1905 on 08/25/2025 airline is changed to AA
+
+What action would you like to perform?
+AA   338       08/25/2025  
+AA   994       09/03/2025  
+AA   1905      08/25/2025  
+AA   1905      09/03/2025  
+AA   1905      09/05/2025  
+DL   2348      09/13/2025  
+DL   2348      09/19/2025  
+NW   1205      10/23/2025  
+SW   158       08/27/2025  
+SW   2209      08/18/2025  
+UA   717       08/25/2025  
+UA   2602      09/09/2025  
+
+Total # of flights: 12
+
+What action would you like to perform?
+
+Enter airline code: 
+Enter flight num: 
+Enter departure date: 
+Enter new airline code: 
+Flight: NW 1205 on 10/23/2025 airline is changed to DL
+
+What action would you like to perform?
+AA   338       08/25/2025  
+AA   994       09/03/2025  
+AA   1905      08/25/2025  
+AA   1905      09/03/2025  
+AA   1905      09/05/2025  
+DL   1205      10/23/2025  
+DL   2348      09/13/2025  
+DL   2348      09/19/2025  
+SW   158       08/27/2025  
+SW   2209      08/18/2025  
+UA   717       08/25/2025  
+UA   2602      09/09/2025  
+
+Total # of flights: 12
+
+What action would you like to perform?
+
+Which date you want to cancel flights with: 
+All flights on 09/03/2025 are canceled
+
+What action would you like to perform?
+AA   338       08/25/2025  
+AA   1905      08/25/2025  
+AA   1905      09/05/2025  
+DL   1205      10/23/2025  
+DL   2348      09/13/2025  
+DL   2348      09/19/2025  
+SW   158       08/27/2025  
+SW   2209      08/18/2025  
+UA   717       08/25/2025  
+UA   2602      09/09/2025  
+
+Total # of flights: 10
+
+What action would you like to perform?
+
+Which airline you want to cancel all flights with: 
+All flights with UA are canceled
+
+What action would you like to perform?
+AA   338       08/25/2025  
+AA   1905      08/25/2025  
+AA   1905      09/05/2025  
+DL   1205      10/23/2025  
+DL   2348      09/13/2025  
+DL   2348      09/19/2025  
+SW   158       08/27/2025  
+SW   2209      08/18/2025  
+
+Total # of flights: 8
+
+What action would you like to perform?
+
+Enter the flight info. which you want to cancel: 
+Enter airline: 
+Enter flight num: 
+Enter departure date: 
+Flight: AA 338 on 08/25/2025 is canceled
+
+What action would you like to perform?
+AA   1905      08/25/2025  
+AA   1905      09/05/2025  
+DL   1205      10/23/2025  
+DL   2348      09/13/2025  
+DL   2348      09/19/2025  
+SW   158       08/27/2025  
+SW   2209      08/18/2025  
+
+Total # of flights: 7
+
+What action would you like to perform?
+
+Which airline you want to cancel all flights with: 
+All flights with DL are canceled
+
+What action would you like to perform?
+AA   1905      08/25/2025  
+AA   1905      09/05/2025  
+SW   158       08/27/2025  
+SW   2209      08/18/2025  
+
+Total # of flights: 4
+
+What action would you like to perform?
+
+The number of deleted flights is: 4
