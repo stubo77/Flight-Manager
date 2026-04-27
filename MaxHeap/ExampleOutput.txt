@@ -1,0 +1,650 @@
+Choice		Action
+------		------
+C		Create a heap
+D		Delete the heap
+E		Extract max node
+F		Find a flight by number
+I		Insert a flight
+K		Increase a flight number
+M		Get the max node
+P		Print the heap
+S		Heap Sort
+Q		Quit
+?		Display Help
+
+
+What action would you like to perform?
+
+Empty heap, can NOT extract max
+
+What action would you like to perform?
+
+Please enter the heap capacity: 
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: HA 201 on 08/20/2025 is added
+
+What action would you like to perform?
+
+Delete the heap
+
+The number of deleted flights is: 1
+
+What action would you like to perform?
+
+Empty heap, no elements
+
+What action would you like to perform?
+
+Empty heap, can NOT get max node
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: HA 202 on 08/22/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: DL 401 on 08/30/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: NW 1201 on 08/25/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: AA 901 on 09/08/2025 is added
+
+What action would you like to perform?
+
+Heap capacity = 4
+
+Heap size = 4
+
+NW   1201      08/25/2025  
+AA   901       09/08/2025  
+DL   401       08/30/2025  
+HA   202       08/22/2025  
+
+What action would you like to perform?
+
+The maximum heap node is:
+NW   1201      08/25/2025  
+
+What action would you like to perform?
+
+Enter the flight number you want to search: 
+Flight with number: 1201 is found
+
+What action would you like to perform?
+
+Enter the flight number you want to search: 
+Flight with number: 1901 is NOT found
+
+What action would you like to perform?
+
+Enter the original flight number which you want to increase: 
+Enter the new flight number: 
+The old flight number you try to increase does not exist
+
+What action would you like to perform?
+
+Enter the original flight number which you want to increase: 
+Enter the new flight number: 
+Increase flight number error: new number is smaller than current number
+
+What action would you like to perform?
+
+Enter the original flight number which you want to increase: 
+Enter the new flight number: 
+Before increase flight number operation:
+
+Heap capacity = 4
+
+Heap size = 4
+
+NW   1201      08/25/2025  
+AA   901       09/08/2025  
+DL   401       08/30/2025  
+HA   202       08/22/2025  
+
+Flight with old number: 401 is increased to new number: 1501
+
+After increase flight number operation: 
+
+Heap capacity = 4
+
+Heap size = 4
+
+DL   1501      08/30/2025  
+AA   901       09/08/2025  
+NW   1201      08/25/2025  
+HA   202       08/22/2025  
+
+What action would you like to perform?
+
+Enter the original flight number which you want to increase: 
+Enter the new flight number: 
+The old flight number you try to increase does not exist
+
+What action would you like to perform?
+
+Before extract heap max operation:
+
+Heap capacity = 4
+
+Heap size = 4
+
+DL   1501      08/30/2025  
+AA   901       09/08/2025  
+NW   1201      08/25/2025  
+HA   202       08/22/2025  
+
+After extract heap max operation:
+
+Heap capacity = 4
+
+Heap size = 3
+
+NW   1201      08/25/2025  
+AA   901       09/08/2025  
+HA   202       08/22/2025  
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: UA 801 on 09/21/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Reach the capacity limit, double the capacity now.
+
+The new capacity now is 8
+
+Flight: SW 1101 on 09/22/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: DL 301 on 10/01/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Duplicated flight. Not added
+
+Flight: DL 1101 on 10/02/2025 is NOT added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Duplicated flight. Not added
+
+Flight: UA 1201 on 10/13/2025 is NOT added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: SW 1601 on 10/15/2025 is added
+
+What action would you like to perform?
+
+Heap capacity = 8
+
+Heap size = 7
+
+SW   1601      10/15/2025  
+SW   1101      09/22/2025  
+NW   1201      08/25/2025  
+UA   801       09/21/2025  
+AA   901       09/08/2025  
+HA   202       08/22/2025  
+DL   301       10/01/2025  
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: AA 1901 on 08/29/2025 is added
+
+What action would you like to perform?
+
+Heap capacity = 8
+
+Heap size = 8
+
+AA   1901      08/29/2025  
+SW   1601      10/15/2025  
+NW   1201      08/25/2025  
+SW   1101      09/22/2025  
+AA   901       09/08/2025  
+HA   202       08/22/2025  
+DL   301       10/01/2025  
+UA   801       09/21/2025  
+
+What action would you like to perform?
+
+The maximum heap node is:
+AA   1901      08/29/2025  
+
+What action would you like to perform?
+
+Before extract heap max operation:
+
+Heap capacity = 8
+
+Heap size = 8
+
+AA   1901      08/29/2025  
+SW   1601      10/15/2025  
+NW   1201      08/25/2025  
+SW   1101      09/22/2025  
+AA   901       09/08/2025  
+HA   202       08/22/2025  
+DL   301       10/01/2025  
+UA   801       09/21/2025  
+
+After extract heap max operation:
+
+Heap capacity = 8
+
+Heap size = 7
+
+SW   1601      10/15/2025  
+SW   1101      09/22/2025  
+NW   1201      08/25/2025  
+UA   801       09/21/2025  
+AA   901       09/08/2025  
+HA   202       08/22/2025  
+DL   301       10/01/2025  
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: SW 401 on 09/02/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Reach the capacity limit, double the capacity now.
+
+The new capacity now is 16
+
+Flight: AA 201 on 11/01/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Duplicated flight. Not added
+
+Flight: DL 201 on 11/15/2025 is NOT added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Duplicated flight. Not added
+
+Flight: UA 901 on 11/03/2025 is NOT added
+
+What action would you like to perform?
+
+Heap capacity = 16
+
+Heap size = 9
+
+SW   1601      10/15/2025  
+SW   1101      09/22/2025  
+NW   1201      08/25/2025  
+UA   801       09/21/2025  
+AA   901       09/08/2025  
+HA   202       08/22/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: DL 2301 on 12/01/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Duplicated flight. Not added
+
+Flight: AA 1101 on 11/02/2025 is NOT added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: DL 1701 on 08/26/2025 is added
+
+What action would you like to perform?
+
+Heap capacity = 16
+
+Heap size = 11
+
+DL   2301      12/01/2025  
+DL   1701      08/26/2025  
+NW   1201      08/25/2025  
+UA   801       09/21/2025  
+SW   1601      10/15/2025  
+HA   202       08/22/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+AA   901       09/08/2025  
+SW   1101      09/22/2025  
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: SW 1301 on 09/07/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Flight: HA 2101 on 10/22/2025 is added
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Duplicated flight. Not added
+
+Flight: NK 801 on 08/25/2025 is NOT added
+
+What action would you like to perform?
+
+Heap capacity = 16
+
+Heap size = 13
+
+DL   2301      12/01/2025  
+DL   1701      08/26/2025  
+HA   2101      10/22/2025  
+UA   801       09/21/2025  
+SW   1601      10/15/2025  
+SW   1301      09/07/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+AA   901       09/08/2025  
+SW   1101      09/22/2025  
+HA   202       08/22/2025  
+NW   1201      08/25/2025  
+
+What action would you like to perform?
+
+Before extract heap max operation:
+
+Heap capacity = 16
+
+Heap size = 13
+
+DL   2301      12/01/2025  
+DL   1701      08/26/2025  
+HA   2101      10/22/2025  
+UA   801       09/21/2025  
+SW   1601      10/15/2025  
+SW   1301      09/07/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+AA   901       09/08/2025  
+SW   1101      09/22/2025  
+HA   202       08/22/2025  
+NW   1201      08/25/2025  
+
+After extract heap max operation:
+
+Heap capacity = 16
+
+Heap size = 12
+
+HA   2101      10/22/2025  
+DL   1701      08/26/2025  
+SW   1301      09/07/2025  
+UA   801       09/21/2025  
+SW   1601      10/15/2025  
+NW   1201      08/25/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+AA   901       09/08/2025  
+SW   1101      09/22/2025  
+HA   202       08/22/2025  
+
+What action would you like to perform?
+
+Heap capacity = 16
+
+Heap size = 12
+
+HA   2101      10/22/2025  
+DL   1701      08/26/2025  
+SW   1301      09/07/2025  
+UA   801       09/21/2025  
+SW   1601      10/15/2025  
+NW   1201      08/25/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+AA   901       09/08/2025  
+SW   1101      09/22/2025  
+HA   202       08/22/2025  
+
+What action would you like to perform?
+
+Enter the original flight number which you want to increase: 
+Enter the new flight number: 
+The old flight number you try to increase does not exist
+
+What action would you like to perform?
+
+Enter the original flight number which you want to increase: 
+Enter the new flight number: 
+The new flight number you entered already exist, increase flight number operation failed
+
+What action would you like to perform?
+
+Enter the original flight number which you want to increase: 
+Enter the new flight number: 
+Before increase flight number operation:
+
+Heap capacity = 16
+
+Heap size = 12
+
+HA   2101      10/22/2025  
+DL   1701      08/26/2025  
+SW   1301      09/07/2025  
+UA   801       09/21/2025  
+SW   1601      10/15/2025  
+NW   1201      08/25/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+AA   901       09/08/2025  
+SW   1101      09/22/2025  
+HA   202       08/22/2025  
+
+Flight with old number: 1101 is increased to new number: 2301
+
+After increase flight number operation: 
+
+Heap capacity = 16
+
+Heap size = 12
+
+SW   2301      09/22/2025  
+HA   2101      10/22/2025  
+SW   1301      09/07/2025  
+UA   801       09/21/2025  
+DL   1701      08/26/2025  
+NW   1201      08/25/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+AA   901       09/08/2025  
+SW   1601      10/15/2025  
+HA   202       08/22/2025  
+
+What action would you like to perform?
+
+Enter the flight airLine: 
+Enter the flight number: 
+Enter the flight departure date: 
+Duplicated flight. Not added
+
+Flight: AS 2101 on 08/27/2025 is NOT added
+
+What action would you like to perform?
+
+Heap capacity = 16
+
+Heap size = 12
+
+SW   2301      09/22/2025  
+HA   2101      10/22/2025  
+SW   1301      09/07/2025  
+UA   801       09/21/2025  
+DL   1701      08/26/2025  
+NW   1201      08/25/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+AA   901       09/08/2025  
+SW   1601      10/15/2025  
+HA   202       08/22/2025  
+
+What action would you like to perform?
+
+Enter the original flight number which you want to increase: 
+Enter the new flight number: 
+Before increase flight number operation:
+
+Heap capacity = 16
+
+Heap size = 12
+
+SW   2301      09/22/2025  
+HA   2101      10/22/2025  
+SW   1301      09/07/2025  
+UA   801       09/21/2025  
+DL   1701      08/26/2025  
+NW   1201      08/25/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+AA   901       09/08/2025  
+SW   1601      10/15/2025  
+HA   202       08/22/2025  
+
+Flight with old number: 901 is increased to new number: 2601
+
+After increase flight number operation: 
+
+Heap capacity = 16
+
+Heap size = 12
+
+AA   2601      09/08/2025  
+SW   2301      09/22/2025  
+SW   1301      09/07/2025  
+UA   801       09/21/2025  
+HA   2101      10/22/2025  
+NW   1201      08/25/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+DL   1701      08/26/2025  
+SW   1601      10/15/2025  
+HA   202       08/22/2025  
+
+What action would you like to perform?
+
+Heap capacity = 16
+
+Heap size = 12
+
+AA   2601      09/08/2025  
+SW   2301      09/22/2025  
+SW   1301      09/07/2025  
+UA   801       09/21/2025  
+HA   2101      10/22/2025  
+NW   1201      08/25/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+AA   201       11/01/2025  
+DL   1701      08/26/2025  
+SW   1601      10/15/2025  
+HA   202       08/22/2025  
+
+What action would you like to perform?
+
+Heap sort. Flights will be sorted in increasing order of their numbers
+AA   201       11/01/2025  
+HA   202       08/22/2025  
+DL   301       10/01/2025  
+SW   401       09/02/2025  
+UA   801       09/21/2025  
+NW   1201      08/25/2025  
+SW   1301      09/07/2025  
+SW   1601      10/15/2025  
+DL   1701      08/26/2025  
+HA   2101      10/22/2025  
+SW   2301      09/22/2025  
+AA   2601      09/08/2025  
+
+What action would you like to perform?
+
+The number of deleted flights is: 0
