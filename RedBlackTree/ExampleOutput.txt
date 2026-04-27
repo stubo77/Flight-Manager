@@ -1,0 +1,311 @@
+
+Command: tree_insert
+AA   201       11/01/2025  
+
+Command: tree_insert
+SW   1601      10/15/2025  
+
+Command: tree_insert
+SW   1101      09/22/2025  
+
+Command: tree_insert
+NW   1201      08/25/2025  
+
+Command: tree_insert
+UA   801       09/21/2025  
+
+Command: tree_insert
+SW   456       11/11/2025  
+
+Command: tree_insert
+DL   200       08/19/2025  
+
+Command: tree_insert
+AA   801       09/15/2025  
+
+Command: tree_insert
+SW   1701      11/23/2025  
+
+Command: tree_insert
+UA   251       09/07/2025  
+
+Command: tree_insert
+AA   701       10/10/2025  
+
+Command: tree_insert
+DL   1301      10/01/2025  
+
+Command: tree_insert
+SW   201       08/31/2025  
+
+Command: tree_insert
+SW   401       10/03/2025  
+
+Command: tree_insert
+AA   136       08/25/2025  
+
+Command: tree_insert
+AA   901       09/08/2025  
+
+Command: tree_insert
+HA   202       08/22/2025  
+
+Command: tree_insert
+DL   201       10/01/2025  
+
+Command: tree_insert
+SW   401       09/02/2025  
+
+Command: tree_insert
+DL   982       09/30/2025  
+
+Command: tree_insert
+AA   101       11/01/2025  
+
+Command: tree_preorder
+SW   1101      09/22/2025    BLACK
+DL   200       08/19/2025    BLACK
+AA   701       10/10/2025      RED
+AA   136       08/25/2025    BLACK
+AA   101       11/01/2025      RED
+AA   201       11/01/2025      RED
+AA   901       09/08/2025    BLACK
+AA   801       09/15/2025      RED
+DL   1301      10/01/2025      RED
+HA   202       08/22/2025      RED
+DL   201       10/01/2025    BLACK
+DL   982       09/30/2025      RED
+NW   1201      08/25/2025    BLACK
+SW   456       11/11/2025    BLACK
+SW   1701      11/23/2025      RED
+SW   1601      10/15/2025    BLACK
+SW   401       09/02/2025    BLACK
+SW   201       08/31/2025      RED
+SW   401       10/03/2025      RED
+UA   801       09/21/2025    BLACK
+UA   251       09/07/2025      RED
+
+Command: tree_inorder
+AA   101       11/01/2025      RED
+AA   136       08/25/2025    BLACK
+AA   201       11/01/2025      RED
+AA   701       10/10/2025      RED
+AA   801       09/15/2025      RED
+AA   901       09/08/2025    BLACK
+DL   1301      10/01/2025      RED
+DL   200       08/19/2025    BLACK
+DL   201       10/01/2025    BLACK
+DL   982       09/30/2025      RED
+HA   202       08/22/2025      RED
+NW   1201      08/25/2025    BLACK
+SW   1101      09/22/2025    BLACK
+SW   1601      10/15/2025    BLACK
+SW   1701      11/23/2025      RED
+SW   201       08/31/2025      RED
+SW   401       09/02/2025    BLACK
+SW   401       10/03/2025      RED
+SW   456       11/11/2025    BLACK
+UA   251       09/07/2025      RED
+UA   801       09/21/2025    BLACK
+
+Command: tree_postorder
+AA   101       11/01/2025      RED
+AA   201       11/01/2025      RED
+AA   136       08/25/2025    BLACK
+AA   801       09/15/2025      RED
+DL   1301      10/01/2025      RED
+AA   901       09/08/2025    BLACK
+AA   701       10/10/2025      RED
+DL   982       09/30/2025      RED
+DL   201       10/01/2025    BLACK
+NW   1201      08/25/2025    BLACK
+HA   202       08/22/2025      RED
+DL   200       08/19/2025    BLACK
+SW   1601      10/15/2025    BLACK
+SW   201       08/31/2025      RED
+SW   401       10/03/2025      RED
+SW   401       09/02/2025    BLACK
+SW   1701      11/23/2025      RED
+UA   251       09/07/2025      RED
+UA   801       09/21/2025    BLACK
+SW   456       11/11/2025    BLACK
+SW   1101      09/22/2025    BLACK
+
+Command: tree_search
+DL   982        on 09/30/2025   is found
+
+Command: tree_search
+DL   597        on 08/17/2025   is NOT found
+
+Command: tree_search
+SW   456        on 11/11/2025   is found
+
+Command: tree_search
+AA   123        on 12/31/2025   is NOT found
+
+Command: tree_search
+AA   136        on 08/25/2025   is found
+
+Command: tree_search
+UA   116        on 09/01/2025   is NOT found
+
+Command: tree_search
+SW   982        on 09/30/2025   is NOT found
+
+Command: tree_predecessor
+DL   200        on 08/19/2025   is found
+Its Predecessor is: 
+DL   1301      10/01/2025      RED
+
+Command: tree_predecessor
+SW   401        on 09/02/2025   is found
+Its Predecessor is: 
+SW   201       08/31/2025      RED
+
+Command: tree_predecessor
+AA   101        on 11/01/2025   is found
+Its Predecessor does NOT exist
+
+Command: tree_predecessor
+UA   801        on 09/21/2025   is found
+Its Predecessor is: 
+UA   251       09/07/2025      RED
+
+Command: tree_successor
+AA   101        on 11/01/2025   is found
+Its Successor is: 
+AA   136       08/25/2025    BLACK
+
+Command: tree_successor
+DL   982        on 09/30/2025   is found
+Its Successor is: 
+HA   202       08/22/2025      RED
+
+Command: tree_successor
+SW   401        on 09/02/2025   is found
+Its Successor is: 
+SW   401       10/03/2025      RED
+
+Command: tree_successor
+UA   801        on 09/21/2025   is found
+Its Successor does NOT exist
+
+Command: tree_minimum
+The MINIMUM is:
+AA   101       11/01/2025      RED
+
+Command: tree_maximum
+The MAXIMUM is:
+UA   801       09/21/2025    BLACK
+
+Command: tree_insert
+HA   210       10/22/2025  
+
+Command: tree_insert
+NK   801       08/25/2025  
+
+Command: tree_insert
+UA   2602      09/09/2025  
+
+Command: tree_insert
+AA   338       08/25/2025  
+
+Command: tree_insert
+DL   1905      09/03/2025  
+
+Command: tree_insert
+NW   205       10/23/2025  
+
+Command: tree_insert
+SW   158       08/27/2025  
+
+Command: tree_insert
+UA   817       08/25/2025  
+
+Command: tree_insert
+DL   1905      08/24/2025  
+
+Command: tree_insert
+AS   345       09/10/2025  
+
+Command: tree_insert
+NK   1701      08/27/2025  
+
+Command: tree_inorder
+AA   101       11/01/2025    BLACK
+AA   136       08/25/2025    BLACK
+AA   201       11/01/2025    BLACK
+AA   338       08/25/2025      RED
+AA   701       10/10/2025      RED
+AA   801       09/15/2025    BLACK
+AA   901       09/08/2025    BLACK
+AS   345       09/10/2025      RED
+DL   1301      10/01/2025    BLACK
+DL   1905      08/24/2025      RED
+DL   1905      09/03/2025    BLACK
+DL   200       08/19/2025    BLACK
+DL   201       10/01/2025    BLACK
+DL   982       09/30/2025      RED
+HA   202       08/22/2025    BLACK
+HA   210       10/22/2025    BLACK
+NK   1701      08/27/2025      RED
+NK   801       08/25/2025      RED
+NW   1201      08/25/2025    BLACK
+NW   205       10/23/2025      RED
+SW   1101      09/22/2025      RED
+SW   158       08/27/2025      RED
+SW   1601      10/15/2025    BLACK
+SW   1701      11/23/2025      RED
+SW   201       08/31/2025      RED
+SW   401       09/02/2025    BLACK
+SW   401       10/03/2025      RED
+SW   456       11/11/2025    BLACK
+UA   251       09/07/2025    BLACK
+UA   2602      09/09/2025      RED
+UA   801       09/21/2025    BLACK
+UA   817       08/25/2025      RED
+
+Command: tree_postorder
+AA   101       11/01/2025    BLACK
+AA   338       08/25/2025      RED
+AA   201       11/01/2025    BLACK
+AA   136       08/25/2025    BLACK
+AA   801       09/15/2025    BLACK
+AS   345       09/10/2025      RED
+DL   1301      10/01/2025    BLACK
+DL   1905      09/03/2025    BLACK
+DL   1905      08/24/2025      RED
+AA   901       09/08/2025    BLACK
+AA   701       10/10/2025      RED
+DL   982       09/30/2025      RED
+DL   201       10/01/2025    BLACK
+NK   1701      08/27/2025      RED
+HA   210       10/22/2025    BLACK
+NW   205       10/23/2025      RED
+NW   1201      08/25/2025    BLACK
+NK   801       08/25/2025      RED
+HA   202       08/22/2025    BLACK
+SW   158       08/27/2025      RED
+SW   1601      10/15/2025    BLACK
+SW   201       08/31/2025      RED
+SW   401       10/03/2025      RED
+SW   401       09/02/2025    BLACK
+SW   1701      11/23/2025      RED
+UA   251       09/07/2025    BLACK
+UA   817       08/25/2025      RED
+UA   801       09/21/2025    BLACK
+UA   2602      09/09/2025      RED
+SW   456       11/11/2025    BLACK
+SW   1101      09/22/2025      RED
+DL   200       08/19/2025    BLACK
+
+Command: tree_minimum
+The MINIMUM is:
+AA   101       11/01/2025    BLACK
+
+Command: tree_maximum
+The MAXIMUM is:
+UA   817       08/25/2025      RED
+
+Command: quit
+The number of deleted nodes: 32
